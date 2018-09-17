@@ -1,0 +1,104 @@
+{
+    "specific_park": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "parks": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_sublettable": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "sublettables": {
+        "GET": ["ADMINISTRATOR"]
+    },
+    "specific_itinerary": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "itineraries": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "company_defaults": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"]
+    },
+    "specific_user_autos": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_auto": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "autos": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_user_role": {
+        "GET": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "specific_autotype": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "autotypes": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_airport": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "airports": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_partner_users": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_partner": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "partners": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_role": {
+        "GET": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "specific_user_user_roles": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "specific_user": {
+        "GET": ["ADMINISTRATOR"],
+        "PATCH": ["ADMINISTRATOR"],
+        "DELETE": ["ADMINISTRATOR"]
+    },
+    "user_roles": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "roles": {
+        "GET": ["ADMINISTRATOR"],
+        "POST": ["ADMINISTRATOR"]
+    },
+    "users": {
+        "GET": ["ADMINISTRATOR"]
+    }
+}

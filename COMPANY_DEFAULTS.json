@@ -1,0 +1,39 @@
+{
+    "Airport": {
+        "rate_park_day": 0,
+        "rate_rent_day": 0,
+        "rate_valet": 0,
+        "rate_wash": 0,
+        "rate_detail": 0,
+        "rate_basic_cleaning_for_sublet": 0,
+        "rate_itinerary_change_return_to_owner": 0,
+        "rate_itinerary_change_per_mile_over_30_miles": 0,
+        "rate_valet_commission_park": 0,
+        "rate_valet_commission_terminal": 0,
+        "rate_valet_commission_fueling": 0,
+        "rate_valet_commission_itinerary_change_return": 0,
+        "rate_valet_commission_empty_trip": 0,
+        "rate_tax_1": 0,
+        "rate_tax_2": 0,
+        "rate_percent_sublet_paid_to_partner": 0,
+        "rate_percent_sublet_paid_to_auto_owner": 0,
+        "rate_promotion_points": 0
+    },
+    "Partner": {
+        "rate_park_day": 0,
+        "rate_rent_day": 0,
+        "rate_valet": 0,
+        "rate_wash": 0,
+        "rate_detail": 0,
+        "rate_basic_cleaning_for_sublet": 0,
+        "rate_itinerary_change_return_to_owner": 0,
+        "rate_itinerary_change_per_mile_over_30_miles": 0,
+        "rate_valet_commission_park": 0,
+        "rate_valet_commission_terminal": 0,
+        "rate_valet_commission_fueling": 0,
+        "rate_valet_commission_itinerary_change_return": 0,
+        "rate_valet_commission_empty_trip": 0,
+        "rate_percent_sublet_paid_to_partner": 0,
+        "rate_percent_sublet_paid_to_auto_owner": 0
+    }
+}

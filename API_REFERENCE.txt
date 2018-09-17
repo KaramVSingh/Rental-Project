@@ -1,0 +1,25 @@
+This document will contain sample API requests and their appropriate actions.
+URL = 'http://127.0.0.1:8000/'
+
+'cleardatabase/'
+    GET:
+        Notes:
+            This simply will clear the entire database
+
+'users/'
+    POST: 
+        standard data: { 'address': '## we are allowing any address I think ##', 'email': 'karamsingh175@gmail.com', 'password': 'HeadIsAFlame18!', 'license_expiration': tomorrow(), 'license_number': 'We are allowing anything right now?', 'license_state': 'md', 'name': 'Karam Singh', 'primary_number': '4434746036', 'secondary_number': '4104650390' }
+        standard result: { 'pk': json.loads(r.text)['pk'], 'email': 'karamsingh175@gmail.com', 'name': 'Karam Singh', 'primary_number': '4434746036', 'secondary_number': '4104650390', 'address': '## we are allowing any address I think ##', 'license_expiration': tomorrow(), 'license_number': 'We are allowing anything right now?', 'license_state': 'MD', 'partner': None, 'member_since': this_year(), 'cumulative_points': 0, 'available_points': 0, 'email_validated': False }
+
+        Notes:
+            If a partner is added in the post, we ignore the partner.
+            If we miss nessesary fields, (password as well) we want this to cause a failure.
+
+'login/'
+    POST:
+        standard data: { 'email': 'karamsingh175@gmail.com', 'password': 'HeadIsAFlame18!' }
+        standard result: { 'token': '26844aff9696190b7c3267fb7e1b205435790320', 'user': 163 }
+
+        Notes:
+            If a token already exists for the user it will replace this token
+            If the username or password is wrong it will throw some nonsense
